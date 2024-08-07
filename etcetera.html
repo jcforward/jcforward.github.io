@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Et Cetera - James Forward</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Barlow:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Updated styles for text color and background color */
+        body {
+            font-family: "Inconsolata", "Barlow", "Source Sans Pro", sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #AEC3B0; /* Light greenish background */
+            color: #dcad1d; /* Yellow-gold text color */
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0; /* Reduced padding */
+            border-bottom: none; /* Removed border */
+        }
+
+        .home_title {
+            font-size: 40px;
+            font-weight: 600;
+            color: #001F44; /* Dark blue text color */
+            margin: 0; /* Remove default margin */
+        }
+
+        .nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            color: #001F44; /* Dark blue for navigation links */
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 22px; /* Increase font size */
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        a {
+            color: #001F44; /* Dark blue for all hyperlinks */
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .section-title {
+            font-size: 30px;
+            margin-top: 10px; /* Reduced margin top */
+            font-weight: bold;
+            color: #001F44; /* Dark blue for section titles */
+        }
+
+        .sub-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 30px;
+            color: #001F44; /* Dark blue for sub-titles */
+        }
+        
+        .section-content {
+            font-size: 20px;
+            margin: 10px 0; /* Reduced margin */
+            line-height: 1.5;
+            color: #4c6859; /* Off-white color for content text */
+        }
+
+        @media (max-device-width: 768px) {
+            body {
+                margin-right: 10px;
+                margin-left: 20px;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .nav {
+                margin-top: 10px;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with name and navigation -->
+        <div class="header">
+            <h1 class="home_title"><a href="index.html">James Forward</a></h1>
+            <ul class="nav">
+                <li><a href="index.html">About</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="etcetera.html">Et Cetera</a></li>
+            </ul>
+        </div>
+        
+        <!-- Research Section Content -->
+        <div id="etcetera">
+            <h2 class="section-title">Et Cetera</h2>
+            
+            <h3 class="sub-title">Blog Posts</h3>
+            <p class="section-content">
+                Thoughts and things I am doing (coming soon)
+            </p>
+        </div>
+    </div>
+</body>
+</html>
