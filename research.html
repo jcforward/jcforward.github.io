@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - James Forward</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Barlow:wght@400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Updated styles for text color and background color */
+        body {
+            font-family: "Inconsolata", "Barlow", "Source Sans Pro", sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #AEC3B0; /* Light greenish background */
+            color: #dcad1d; /* Dark blue text color */
+        }
+        
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .home_title {
+            font-size: 40px;
+            font-weight: 600;
+            color: #001F44; /* Ensure the title also uses the text color */
+        }
+
+        .nav {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            color: #001F44; /* Dark blue for navigation links */
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        a {
+            color: #001F44; /* Dark blue for all hyperlinks */
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .section-title {
+            font-size: 30px;
+            margin-top: 50px;
+            font-weight: bold;
+            color: #001F44; /* Dark blue for section titles */
+        }
+
+        .sub-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 30px;
+            color: #001F44; /* Dark blue for sub-titles */
+        }
+        
+        .section-content {
+            font-size: 20px;
+            margin: 20px 0;
+            line-height: 1.5;
+            color: #fff4dc; /* Off-white color for content text */
+        }
+
+        @media (max-device-width: 768px) {
+            body {
+                margin-right: 10px;
+                margin-left: 20px;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .nav {
+                margin-top: 10px;
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header with name and navigation -->
+        <div class="header">
+            <h1 class="home_title"><a href="index.html">James Forward</a></h1>
+            <ul class="nav">
+                <li><a href="index.html">About</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="etcetera.html">Et Cetera</a></li>
+            </ul>
+        </div>
+        
+        <!-- Research Section Content -->
+        <div id="research">
+            <h2 class="section-title">Research</h2>
+            
+            <h3 class="sub-title">King Lab, UBC</h3>
+            <p class="section-content">
+                I first emailed Dr. Kayla King in early 2023 and started working with her later that fall. The King Lab studies the evolution of host-pathogen interactions in different contexts, whether in the microbiome, differing host biodiversity, or different temperatures. I still remember that after my first meeting with her, she said at the end of it all, “we’re going to turn you into an ecologist.” Having only engaged in pure microbiology research, I was excited to venture into such novel topics.
+            </p>
+            <p class="section-content">
+                Having most strongly resonated with how warming affects infectious diseases, I conceived a project on how temperature affects bacterial cell physiology of experimentally evolved bacterial pathogens (genus: Leucobacter). I used preliminary data that showed certain populations of bacteria had increased virulence to pose the question of whether they were physically changing. Through time point/time lapse imaging, I was able to visualize the cells and analyze them using custom scripts and software on MATLAB to quantify the morphological features and single cell growth.
+            </p>
+            <p class="section-content">
+                In parallel, to better understand the adaptation of microbes following experimental evolution, I always wondered how members of the evolved population would fare against their ancestors in a competitive fitness assay. Along with a PhD student in the lab, we conceived a project to introduce a genetic marker to distinguish the evolved and ancestral microbes. The hurdle was that our strain was gram-positive and undomesticated. I aimed to genetically engineer our strain, using a Cre recombinase system to express a fluorescent tag to visualize the pathogen’s interactions with a host or evaluate adaptation through competition assays. The engineering method designed in this project allows for genes to be easily swapped in and out of the genome, making all future modifications of Leucobacter easier. The project did not go to plan, and the system was not compatible; however, this experience opened my eyes to the field of engineering undomesticated bacteria to understand and control them.
+            </p>
+
+            <h3 class="sub-title">Finlay Lab, UBC</h3>
+            <p class="section-content">
+                In the spring of 2022, I took a class on bacterial pathogenesis that would lead me to a range of interests centered around microbes My interactions with the course instructor, a research associate at the Finlay Lab, led to numerous engaging discussions. Motivated by these interactions, I asked if I could do research with him, and I soon began working in the lab.            </p>
+            <p class="section-content">
+                One of the first projects I worked on was looking at the probiotic properties of E.coli Nissle, focusing on its Type Six Secretion System (T6SS). My supervisor and I targeted known effector proteins of the T6SS and assessed their toxic effects on different cellular compartments. Additionally, I investigated the influence of metabolic supplements on bacterial growth patterns and gene expression.
+                <p class="section-content">
+                    In this first research experience, I was first exposed to bioinformatic tools and how powerful they were in characterizing different components. It was also here that I received exceptional mentorship and realized the importance of working with highly driven people.  
+            </p>
+        </div>
+    </div>
+</body>
+</html>
